@@ -27,7 +27,7 @@ class Varasto:
             self.saldo = self.saldo + maara
         else:
             self.saldo = self.tilavuus
-
+    # ota varstosta
     def ota_varastosta(self, maara):
         if maara < 0:
             return 0.0
